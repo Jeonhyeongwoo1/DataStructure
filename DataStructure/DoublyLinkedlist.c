@@ -125,6 +125,7 @@ Node* searchNode(List *lp, int data)
         
         current = current->next;
     }
+    return NULL;
 }
 
 enum BOOL removeNode(List *lp, int data)

@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "listStack.h"
-
+/*
 enum BOOL createStack(Stack *sp)
 {
     if(sp == NULL)
@@ -124,3 +124,5 @@ void destroyStack(Stack *sp)
     free(sp->tail);
     sp->head = sp->tail = NULL;
 }
+
+*/
